@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="assets/logo.svg" alt="dark-2026" width="96" />
+  <img src="assets/logo.svg" alt="code-2026" width="96" />
 </p>
 
 <p align="center">
-  <img src="assets/kitty.png" alt="dark-2026" />
+  <img src="assets/kitty.png" alt="code-2026" />
 </p>
 
-# dark-2026 — kitty
+# code-2026 — kitty
 
 Dark and light themes for [kitty](https://sw.kovidgoyal.net/kitty/), ported from VS Code's
 **Dark Modern 2026**: red keywords, purple functions, teal types and light-blue strings.
@@ -30,7 +30,7 @@ terminal.
 Copy the theme into kitty's themes directory:
 
 ```sh
-cp themes/dark-2026.conf ~/.config/kitty/themes/dark-2026.conf
+cp themes/code-2026.conf ~/.config/kitty/themes/code-2026.conf
 # or for the light variant:
 cp themes/light-2026.conf ~/.config/kitty/themes/light-2026.conf
 ```
@@ -38,7 +38,7 @@ cp themes/light-2026.conf ~/.config/kitty/themes/light-2026.conf
 Then in `~/.config/kitty/kitty.conf`:
 
 ```conf
-include themes/dark-2026.conf
+include themes/code-2026.conf
 # or
 include themes/light-2026.conf
 ```
