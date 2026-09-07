@@ -8,20 +8,19 @@
 
 # dark-2026 — kitty
 
-A dark theme for [kitty](https://sw.kovidgoyal.net/kitty/), ported from VS Code's **Dark
-Modern 2026**: red keywords, purple functions, teal types and light-blue strings on a
-near-black `#121314` canvas.
+Dark and light themes for [kitty](https://sw.kovidgoyal.net/kitty/), ported from VS Code's
+**Dark Modern 2026**: red keywords, purple functions, teal types and light-blue strings.
 
-## The dark-2026 family
+## The code-2026 family
 
 | Target | Repository | |
 | --- | --- | --- |
-| Neovim | [dark-2026-theme/nvim](https://github.com/dark-2026-theme/nvim) | colorscheme plugin |
-| Ghostty | [dark-2026-theme/ghostty](https://github.com/dark-2026-theme/ghostty) | terminal theme |
-| kitty | [dark-2026-theme/kitty](https://github.com/dark-2026-theme/kitty) | **this repo** |
-| Xcode | [dark-2026-theme/xcode](https://github.com/dark-2026-theme/xcode) | editor theme |
-| Obsidian | [dark-2026-theme/obsidian](https://github.com/dark-2026-theme/obsidian) | app theme |
-| Yazi | [dark-2026-theme/yazi](https://github.com/dark-2026-theme/yazi) | file manager |
+| Neovim | [code-2026-theme/nvim](https://github.com/code-2026-theme/nvim) | colorscheme plugin |
+| Ghostty | [code-2026-theme/ghostty](https://github.com/code-2026-theme/ghostty) | terminal theme |
+| kitty | [code-2026-theme/kitty](https://github.com/code-2026-theme/kitty) | **this repo** |
+| Xcode | [code-2026-theme/xcode](https://github.com/code-2026-theme/xcode) | editor theme |
+| Obsidian | [code-2026-theme/obsidian](https://github.com/code-2026-theme/obsidian) | app theme |
+| Yazi | [code-2026-theme/yazi](https://github.com/code-2026-theme/yazi) | file manager |
 
 Every port shares one palette, so `:terminal` inside Neovim renders identically to the host
 terminal.
@@ -32,12 +31,16 @@ Copy the theme into kitty's themes directory:
 
 ```sh
 cp themes/dark-2026.conf ~/.config/kitty/themes/dark-2026.conf
+# or for the light variant:
+cp themes/light-2026.conf ~/.config/kitty/themes/light-2026.conf
 ```
 
 Then in `~/.config/kitty/kitty.conf`:
 
 ```conf
 include themes/dark-2026.conf
+# or
+include themes/light-2026.conf
 ```
 
 Reload with `ctrl+shift+f5`, or restart kitty.
@@ -57,6 +60,22 @@ Reload with `ctrl+shift+f5`, or restart kitty.
 
 Background `#121314`, foreground `#bbbebf`, cursor `#bbbebf` on `#121314`, selection
 `#276782` with `#ffffff` text. Tab bar, borders and marks are themed too.
+
+### Light palette
+
+| | Normal | | Bright |
+| --- | --- | --- | --- |
+| black | `#f0f1f2` | bright black | `#999999` |
+| red | `#cf222e` | bright red | `#cf222e` |
+| green | `#116329` | bright green | `#116329` |
+| yellow | `#953800` | bright yellow | `#953800` |
+| blue | `#0550ae` | bright blue | `#0550ae` |
+| magenta | `#8250df` | bright magenta | `#8250df` |
+| cyan | `#116329` | bright cyan | `#116329` |
+| white | `#202020` | bright white | `#ffffff` |
+
+Background `#FFFFFF`, foreground `#202020`, cursor `#0069CC` on `#FFFFFF`, selection
+`#C2DAF5` with `#202020` text. Tab bar, borders and marks are themed too.
 
 ## Credits
 
