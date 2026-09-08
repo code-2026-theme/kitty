@@ -27,7 +27,13 @@ terminal.
 
 ## Install
 
-Copy the theme into kitty's themes directory:
+Use the install script (backs up existing themes):
+
+```sh
+./install.sh
+```
+
+Or copy the theme into kitty's themes directory:
 
 ```sh
 cp themes/code-2026.conf ~/.config/kitty/themes/code-2026.conf
