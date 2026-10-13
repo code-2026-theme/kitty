@@ -21,6 +21,7 @@ Dark and light themes for [kitty](https://sw.kovidgoyal.net/kitty/), ported from
 | Xcode | [code-2026-theme/xcode](https://github.com/code-2026-theme/xcode) | editor theme |
 | Obsidian | [code-2026-theme/obsidian](https://github.com/code-2026-theme/obsidian) | app theme |
 | Yazi | [code-2026-theme/yazi](https://github.com/code-2026-theme/yazi) | file manager |
+| tmux | [code-2026-theme/tmux](https://github.com/code-2026-theme/tmux) | status line |
 
 Every port shares one palette, so `:terminal` inside Neovim renders identically to the host
 terminal.
